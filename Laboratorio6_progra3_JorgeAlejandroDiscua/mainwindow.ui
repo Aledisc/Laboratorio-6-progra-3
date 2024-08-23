@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1001</width>
+    <height>654</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ejercicio 1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ejercicio 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>190</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ejercicio 3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>330</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Salir</string>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>40</y>
+      <width>791</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>30</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ejercicio 1</string>
+      </property>
+     </widget>
+     <widget class="QStackedWidget" name="stackedWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>70</y>
+        <width>731</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page_3">
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>290</y>
+          <width>80</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Crear</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>30</y>
+          <width>211</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Ingrese las dimensiones de las matrices</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>70</y>
+          <width>49</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Matriz 1</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>70</y>
+          <width>49</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Matriz 2</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>100</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Filas:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>150</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Columnas:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>100</y>
+          <width>31</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Filas:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>150</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Columnas:</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="sbF1">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>100</y>
+          <width>42</width>
+          <height>25</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="sbC1">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>150</y>
+          <width>42</width>
+          <height>25</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="sbF2">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>100</y>
+          <width>42</width>
+          <height>25</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="sbC2">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>150</y>
+          <width>42</width>
+          <height>25</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_4">
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Regresar</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="matriz1">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>60</y>
+          <width>181</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>40</y>
+          <width>49</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Matriz 1</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="matriz2">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>60</y>
+          <width>181</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="matriz3">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>60</y>
+          <width>181</width>
+          <height>181</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>40</y>
+          <width>49</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Matriz 2</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>40</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Resultado:</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>290</y>
+          <width>121</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Sumar las matrices</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>290</y>
+          <width>171</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Restar matriz 2 con matriz 1</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_9">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>290</y>
+          <width>141</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Multiplicar las matrices</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>30</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ejercicio 2</string>
+      </property>
+     </widget>
+     <widget class="QStackedWidget" name="stackedWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>70</y>
+        <width>721</width>
+        <height>431</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page_5">
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>30</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Crear la matriz</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>90</y>
+          <width>31</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Filas:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>140</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Columnas:</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="sbF">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>80</y>
+          <width>51</width>
+          <height>25</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="sbC">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>140</y>
+          <width>51</width>
+          <height>25</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_10">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>210</y>
+          <width>80</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Crear</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_6">
+       <widget class="QTableWidget" name="matrizElemento">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>40</y>
+          <width>341</width>
+          <height>231</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>20</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Matriz:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>300</y>
+          <width>111</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Elemento a buscar:</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="sbEl">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>300</y>
+          <width>61</width>
+          <height>25</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>118</x>
+          <y>350</y>
+          <width>111</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Posicion encontrada:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="elementoLabel">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>350</y>
+          <width>401</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_11">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>380</y>
+          <width>80</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Buscar</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_12">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Regresar</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_7">
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>40</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ejercicio 3</string>
+      </property>
+     </widget>
+     <widget class="QStackedWidget" name="stackedWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>70</y>
+        <width>711</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page_8">
+       <widget class="QLabel" name="label_20">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>30</y>
+          <width>91</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Crear la matriz:</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_14">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>260</y>
+          <width>80</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Crear</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_21">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>80</y>
+          <width>31</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Filas:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_22">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>120</y>
+          <width>61</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Columnas:</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="sbFT">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>70</y>
+          <width>61</width>
+          <height>25</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="sbCT">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>120</y>
+          <width>61</width>
+          <height>25</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_9">
+       <widget class="QTableWidget" name="tablaTransp">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>70</y>
+          <width>211</width>
+          <height>191</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_23">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>50</y>
+          <width>49</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Matriz 1</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="Transp">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>70</y>
+          <width>211</width>
+          <height>191</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_24">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>50</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Transpuesta</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_15">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>310</y>
+          <width>121</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Calcular transpuesta</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_16">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>51</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Volver</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_10">
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>40</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ejercicio 4</string>
+      </property>
+     </widget>
+     <widget class="QStackedWidget" name="stackedWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>70</y>
+        <width>681</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="page_11">
+       <widget class="QLabel" name="label_26">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>30</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Crear la matriz</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="sbFR">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>80</y>
+          <width>61</width>
+          <height>25</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_20">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>230</y>
+          <width>80</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Crear</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_32">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>90</y>
+          <width>31</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Filas:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_33">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>130</y>
+          <width>61</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Columnas:</string>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="sbCR">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>130</y>
+          <width>61</width>
+          <height>25</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_12">
+       <widget class="QTableWidget" name="matrizR">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>70</y>
+          <width>241</width>
+          <height>191</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_34">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>40</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Matriz</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="rotada">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>70</y>
+          <width>256</width>
+          <height>192</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_35">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>50</y>
+          <width>61</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Resultado</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_21">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>300</y>
+          <width>80</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Rotar matriz</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_22">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>61</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Volver</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_23">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>300</y>
+          <width>131</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Generar matriz a rotar</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>250</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ejercicio 4</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1001</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
